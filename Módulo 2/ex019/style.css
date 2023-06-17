@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#principal{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+}
+
+h1{
+    color: rgb(35, 67, 245);
+}
+
+h2{
+    color: rgb(87, 54, 233);
+}
+
+p{
+    text-align: justify;
+    text-indent: 15px;
+}
+
+.basico{
+    color: rgb(15, 151, 15);
+}
+
+.intermediario{
+    color: rgb(207, 195, 18);
+}
+
+.avancado{
+    color: rgb(187, 23, 23);
+}
+

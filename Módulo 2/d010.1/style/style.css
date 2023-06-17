@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'IDroid';
+    src: url('../font/IDroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-image: linear-gradient(#6BE375, #105E17);
+    margin: 0;
+    padding: 10px;
+}
+
+header > section > h1{
+    font-family: Bebas Neue;
+    font-size: 2.5em;;
+    text-align: center;
+    color: white;
+}
+
+header > section > p{
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+}
+
+header section > nav > a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+header section > nav > a:hover {
+    background-color: #05520c;
+    border-radius: 7px;
+    transition: 0.3ms;
+}
+
+
+main{
+    width: 800px;
+    margin: auto;
+
+}
+
+#sub-titulo {
+    font-family: IDroid;
+    font-size: 2em;
+    padding: 10px;
+    color: #105E17;
+    font-weight: normal;
+    margin: 0;
+    text-align: center;
+}
+
+main > p {
+    text-indent: 15px;
+}
+
+.sub-titulo2 {
+    font-family: IDroid;
+    background-image: linear-gradient(45deg, #6BE375, white );
+    color: #05520c;
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 1.2em;
+}
+
+strong {
+    color: #05520c;
+    text-shadow: 2px 1px rgba(0, 0, 0, 0.329);
+}
+
+main > p > a {
+    text-decoration: none;
+    color: #05520c;
+    font-weight: bold;
+    padding: 3px;
+}
+
+main > p > a:hover {
+    background-color: #05520c;
+    color: white;
+}
+
+section {
+    display: block;
+}
