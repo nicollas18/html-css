@@ -1,3 +1,9 @@
 @charset "UTF-8";
 
 /* Tela em formato Retrato */
+
+body {
+    text-align: center;
+    background-image: url(../../imagens/cev-portrait.jpg);
+    background-position: center bottom;
+}
